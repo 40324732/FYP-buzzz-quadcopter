@@ -1,0 +1,4 @@
+msg/MotorCommands.idl
+msg/MotorCommands.msg
+msg/SensorSuite.idl
+msg/SensorSuite.msg

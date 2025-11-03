@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/esp32_bridge.dir/src/esp32_bridge_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable esp32_bridge[0m
+[100%] Built target esp32_bridge
+-- Install configuration: ""
+-- Installing: /home/mbell/bzzz_ws/install/bzzz_core/lib/bzzz_core/esp32_bridge
+-- Set non-toolchain portion of runtime path of "/home/mbell/bzzz_ws/install/bzzz_core/lib/bzzz_core/esp32_bridge" to ""
+-- Installing: /home/mbell/bzzz_ws/install/bzzz_core/share/ament_index/resource_index/package_run_dependencies/bzzz_core
+-- Installing: /home/mbell/bzzz_ws/install/bzzz_core/share/ament_index/resource_index/parent_prefix_path/bzzz_core
+-- Installing: /home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/environment/ament_prefix_path.sh
+-- Installing: /home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/environment/ament_prefix_path.dsv
+-- Installing: /home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/environment/path.sh
+-- Installing: /home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/environment/path.dsv
+-- Installing: /home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/local_setup.bash
+-- Installing: /home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/local_setup.sh
+-- Installing: /home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/local_setup.zsh
+-- Installing: /home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/local_setup.dsv
+-- Installing: /home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/package.dsv
+-- Installing: /home/mbell/bzzz_ws/install/bzzz_core/share/ament_index/resource_index/packages/bzzz_core
+-- Installing: /home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/cmake/bzzz_coreConfig.cmake
+-- Installing: /home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/cmake/bzzz_coreConfig-version.cmake
+-- Installing: /home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/package.xml

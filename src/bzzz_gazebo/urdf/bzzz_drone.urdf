@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<robot name="bzzz_drone">
+
+  <link name="base_footprint"/>
+
+  <joint name="base_joint" type="fixed">
+    <parent link="base_footprint"/>
+    <child link="base_link"/>
+    <origin xyz="0 0 0.1" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Main Body -->
+  <link name="base_link">
+    <inertial>
+      <mass value="0.8"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.02"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="1.5708 0 0"/> 
+      <geometry>
+        <mesh filename="file:///home/mbell/bzzz_ws/src/bzzz_gazebo/meshes/bzzz.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="dark_grey"><color rgba="0.2 0.2 0.2 1.0"/></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+      <geometry>
+        <box size="0.3 0.3 0.1"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Propeller 1: Front Right (CCW) -->
+  <link name="prop_1">
+    <inertial>
+      <mass value="0.05"/>
+      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="-1.5708 0 0"/> 
+      <geometry>
+        <mesh filename="file:///home/mbell/bzzz_ws/src/bzzz_gazebo/meshes/prop.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="red"><color rgba="0.8 0 0 1"/></material>
+    </visual>
+  </link>
+  <joint name="prop_1_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="prop_1"/>
+    <origin xyz="0.17 -0.17 0.08" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <!-- Propeller 2: Back Left (CCW) -->
+  <link name="prop_2">
+    <inertial>
+      <mass value="0.05"/>
+      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="-1.5708 0 0"/>
+      <geometry>
+        <mesh filename="file:///home/mbell/bzzz_ws/src/bzzz_gazebo/meshes/prop.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="grey"><color rgba="0.3 0.3 0.3 1"/></material>
+    </visual>
+  </link>
+  <joint name="prop_2_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="prop_2"/>
+    <origin xyz="-0.17 0.17 0.08" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <!-- Propeller 3: Front Left (CW) -->
+  <link name="prop_3">
+    <inertial>
+      <mass value="0.05"/>
+      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="-1.5708 0 0"/>
+      <geometry>
+        <mesh filename="file:///home/mbell/bzzz_ws/src/bzzz_gazebo/meshes/prop.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="red"/>
+    </visual>
+  </link>
+  <joint name="prop_3_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="prop_3"/>
+    <origin xyz="0.17 0.17 0.08" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <!-- Propeller 4: Back Right (CW) -->
+  <link name="prop_4">
+    <inertial>
+      <mass value="0.05"/>
+      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="-1.5708 0 0"/>
+      <geometry>
+        <mesh filename="file:///home/mbell/bzzz_ws/src/bzzz_gazebo/meshes/prop.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="grey"/>
+    </visual>
+  </link>
+  <joint name="prop_4_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="prop_4"/>
+    <origin xyz="-0.17 -0.17 0.08" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <!-- GAZEBO PLUGINS FOR FLIGHT -->
+  <gazebo>
+    <!-- Multicopter Velocity Control (Flight Controller) -->
+    <plugin
+      filename="gz-sim-multicopter-control-system"
+      name="gz::sim::systems::MulticopterVelocityControl">
+      <robotNamespace>bzzz_drone</robotNamespace>
+      <commandSubTopic>cmd_vel</commandSubTopic>
+      <enableAngleControl>true</enableAngleControl>
+      <verticalPositionP>2.0</verticalPositionP>
+      <yawPositionP>0.5</yawPositionP>
+    </plugin>
+
+    <!-- Motor Model Plugins (One per propeller) -->
+    <plugin filename="gz-sim-multicopter-motor-model-system" name="gz::sim::systems::MulticopterMotorModel">
+      <jointName>prop_1_joint</jointName>
+      <linkName>prop_1</linkName>
+      <turningDirection>ccw</turningDirection>
+      <motorConstant>8.5e-05</motorConstant>
+      <motorNumber>0</motorNumber>
+    </plugin>
+    <plugin filename="gz-sim-multicopter-motor-model-system" name="gz::sim::systems::MulticopterMotorModel">
+      <jointName>prop_2_joint</jointName>
+      <linkName>prop_2</linkName>
+      <turningDirection>ccw</turningDirection>
+      <motorConstant>8.5e-05</motorConstant>
+      <motorNumber>1</motorNumber>
+    </plugin>
+    <plugin filename="gz-sim-multicopter-motor-model-system" name="gz::sim::systems::MulticopterMotorModel">
+      <jointName>prop_3_joint</jointName>
+      <linkName>prop_3</linkName>
+      <turningDirection>cw</turningDirection>
+      <motorConstant>8.5e-05</motorConstant>
+      <motorNumber>2</motorNumber>
+    </plugin>
+    <plugin filename="gz-sim-multicopter-motor-model-system" name="gz::sim::systems::MulticopterMotorModel">
+      <jointName>prop_4_joint</jointName>
+      <linkName>prop_4</linkName>
+      <turningDirection>cw</turningDirection>
+      <motorConstant>8.5e-05</motorConstant>
+      <motorNumber>3</motorNumber>
+    </plugin>
+  </gazebo>
+
+</robot>

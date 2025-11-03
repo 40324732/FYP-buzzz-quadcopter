@@ -1,0 +1,7 @@
+{
+  "package_name": "bzzz_msgs",
+  "non_idl_tuples": [
+    "/home/mbell/bzzz_ws/src/bzzz_msgs:msg/MotorCommands.msg",
+    "/home/mbell/bzzz_ws/src/bzzz_msgs:msg/SensorSuite.msg"
+  ]
+}

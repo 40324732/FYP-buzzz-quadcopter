@@ -1,0 +1,4 @@
+source;share/bzzz_msgs/local_setup.bash
+source;share/bzzz_msgs/local_setup.dsv
+source;share/bzzz_msgs/local_setup.sh
+source;share/bzzz_msgs/local_setup.zsh

@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from bzzz_msgs/msg/SensorSuite.msg
+// generated code does not contain a copyright notice
+
+
+module bzzz_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Raw IMU Accelerometer Data (m/s^2)")
+    struct SensorSuite {
+      float accel_x;
+
+      float accel_y;
+
+      float accel_z;
+
+      @verbatim (language="comment", text=
+        "Raw IMU Gyroscope Data (rad/s)")
+      float gyro_x;
+
+      float gyro_y;
+
+      float gyro_z;
+
+      @verbatim (language="comment", text=
+        "Altitude Sensors" "\n"
+        "Distance from ToF in meters")
+      float tof_distance;
+
+      @verbatim (language="comment", text=
+        "Pressure from Barometer in Pascals")
+      float baro_pressure;
+    };
+  };
+};

@@ -1,0 +1,4 @@
+Invoking command in '/home/mbell/bzzz_ws/build/bzzz_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/mbell/bzzz_ws/src/bzzz_core -DCMAKE_INSTALL_PREFIX=/home/mbell/bzzz_ws/install/bzzz_core
+Invoked command in '/home/mbell/bzzz_ws/build/bzzz_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/mbell/bzzz_ws/src/bzzz_core -DCMAKE_INSTALL_PREFIX=/home/mbell/bzzz_ws/install/bzzz_core
+Invoking command in '/home/mbell/bzzz_ws/build/bzzz_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/mbell/bzzz_ws/build/bzzz_core -- -j16 -l16
+Invoked command in '/home/mbell/bzzz_ws/build/bzzz_core' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/mbell/bzzz_ws/build/bzzz_core -- -j16 -l16

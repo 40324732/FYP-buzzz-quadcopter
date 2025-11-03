@@ -1,0 +1,4 @@
+source;share/bzzz_core/local_setup.bash
+source;share/bzzz_core/local_setup.dsv
+source;share/bzzz_core/local_setup.sh
+source;share/bzzz_core/local_setup.zsh

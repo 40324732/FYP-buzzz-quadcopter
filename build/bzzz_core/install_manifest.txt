@@ -1,0 +1,16 @@
+/home/mbell/bzzz_ws/install/bzzz_core/lib/bzzz_core/esp32_bridge
+/home/mbell/bzzz_ws/install/bzzz_core/share/ament_index/resource_index/package_run_dependencies/bzzz_core
+/home/mbell/bzzz_ws/install/bzzz_core/share/ament_index/resource_index/parent_prefix_path/bzzz_core
+/home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/environment/ament_prefix_path.sh
+/home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/environment/ament_prefix_path.dsv
+/home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/environment/path.sh
+/home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/environment/path.dsv
+/home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/local_setup.bash
+/home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/local_setup.sh
+/home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/local_setup.zsh
+/home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/local_setup.dsv
+/home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/package.dsv
+/home/mbell/bzzz_ws/install/bzzz_core/share/ament_index/resource_index/packages/bzzz_core
+/home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/cmake/bzzz_coreConfig.cmake
+/home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/cmake/bzzz_coreConfig-version.cmake
+/home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/package.xml

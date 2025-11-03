@@ -1,0 +1,260 @@
+[0.007s] Invoking command in '/home/mbell/bzzz_ws/build/bzzz_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/mbell/bzzz_ws/build/bzzz_msgs -- -j16 -l16
+[0.023s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.167s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.168s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.256s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.275s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.648s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.932s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.296s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.299s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.390s] -- Found PythonExtra: /usr/bin/python3  
+[1.777s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.818s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.819s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.830s] -- Added test 'lint_cmake' to check CMake code style
+[1.830s] -- Added test 'xmllint' to check XML markup files
+[1.832s] -- Configuring done (1.8s)
+[1.864s] -- Generating done (0.0s)
+[1.872s] -- Build files have been written to: /home/mbell/bzzz_ws/build/bzzz_msgs
+[1.894s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[1.894s] [  4%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[1.899s] [  4%] Built target ament_cmake_python_copy_bzzz_msgs
+[2.031s] [  4%] Built target bzzz_msgs__rosidl_generator_type_description
+[2.037s] running egg_info
+[2.038s] creating bzzz_msgs.egg-info
+[2.038s] [  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.040s] [  6%] Built target bzzz_msgs__rs
+[2.045s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.048s] writing bzzz_msgs.egg-info/PKG-INFO
+[2.048s] writing dependency_links to bzzz_msgs.egg-info/dependency_links.txt
+[2.048s] writing top-level names to bzzz_msgs.egg-info/top_level.txt
+[2.049s] writing manifest file 'bzzz_msgs.egg-info/SOURCES.txt'
+[2.078s] reading manifest file 'bzzz_msgs.egg-info/SOURCES.txt'
+[2.079s] writing manifest file 'bzzz_msgs.egg-info/SOURCES.txt'
+[2.097s] [  8%] Built target ament_cmake_python_build_bzzz_msgs_egg
+[2.201s] [  8%] Built target bzzz_msgs__cpp
+[2.226s] [ 17%] [32mBuilding C object CMakeFiles/bzzz_msgs__rosidl_generator_c.dir/rosidl_generator_c/bzzz_msgs/msg/detail/sensor_suite__description.c.o[0m
+[2.227s] [ 17%] [32mBuilding C object CMakeFiles/bzzz_msgs__rosidl_generator_c.dir/rosidl_generator_c/bzzz_msgs/msg/detail/motor_commands__functions.c.o[0m
+[2.227s] [ 17%] [32mBuilding C object CMakeFiles/bzzz_msgs__rosidl_generator_c.dir/rosidl_generator_c/bzzz_msgs/msg/detail/motor_commands__description.c.o[0m
+[2.227s] [ 17%] [32mBuilding C object CMakeFiles/bzzz_msgs__rosidl_generator_c.dir/rosidl_generator_c/bzzz_msgs/msg/detail/motor_commands__type_support.c.o[0m
+[2.227s] [ 20%] [32mBuilding C object CMakeFiles/bzzz_msgs__rosidl_generator_c.dir/rosidl_generator_c/bzzz_msgs/msg/detail/sensor_suite__functions.c.o[0m
+[2.227s] [ 22%] [32mBuilding C object CMakeFiles/bzzz_msgs__rosidl_generator_c.dir/rosidl_generator_c/bzzz_msgs/msg/detail/sensor_suite__type_support.c.o[0m
+[2.285s] [ 24%] [32m[1mLinking C shared library libbzzz_msgs__rosidl_generator_c.so[0m
+[2.352s] [ 24%] Built target bzzz_msgs__rosidl_generator_c
+[2.358s] [ 33%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.359s] [ 33%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.359s] [ 33%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.359s] [ 33%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.359s] [ 37%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.359s] [ 37%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.509s] [ 40%] [32mBuilding CXX object CMakeFiles/bzzz_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bzzz_msgs/msg/motor_commands__type_support.cpp.o[0m
+[2.509s] [ 42%] [32mBuilding CXX object CMakeFiles/bzzz_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bzzz_msgs/msg/motor_commands__type_support.cpp.o[0m
+[2.510s] [ 44%] [32mBuilding CXX object CMakeFiles/bzzz_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bzzz_msgs/msg/sensor_suite__type_support.cpp.o[0m
+[2.510s] [ 46%] [32mBuilding CXX object CMakeFiles/bzzz_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bzzz_msgs/msg/sensor_suite__type_support.cpp.o[0m
+[2.522s] [ 51%] [32mBuilding CXX object CMakeFiles/bzzz_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bzzz_msgs/msg/detail/motor_commands__type_support.cpp.o[0m
+[2.522s] [ 51%] [32mBuilding CXX object CMakeFiles/bzzz_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bzzz_msgs/msg/detail/sensor_suite__type_support.cpp.o[0m
+[2.522s] [ 53%] [32mBuilding C object CMakeFiles/bzzz_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bzzz_msgs/msg/detail/motor_commands__type_support.c.o[0m
+[2.524s] [ 55%] [32mBuilding C object CMakeFiles/bzzz_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bzzz_msgs/msg/detail/sensor_suite__type_support.c.o[0m
+[2.541s] [ 57%] [32mBuilding CXX object CMakeFiles/bzzz_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bzzz_msgs/msg/detail/dds_fastrtps/motor_commands__type_support.cpp.o[0m
+[2.543s] [ 60%] [32mBuilding CXX object CMakeFiles/bzzz_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bzzz_msgs/msg/detail/dds_fastrtps/sensor_suite__type_support.cpp.o[0m
+[2.548s] [ 62%] [32mBuilding CXX object CMakeFiles/bzzz_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bzzz_msgs/msg/detail/sensor_suite__type_support_c.cpp.o[0m
+[2.549s] [ 64%] [32mBuilding CXX object CMakeFiles/bzzz_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bzzz_msgs/msg/detail/motor_commands__type_support_c.cpp.o[0m
+[2.555s] [ 68%] [32m[1mLinking C shared library libbzzz_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.555s] [ 68%] [32m[1mLinking CXX shared library libbzzz_msgs__rosidl_typesupport_c.so[0m
+[2.640s] [ 68%] Built target bzzz_msgs__rosidl_typesupport_introspection_c
+[2.650s] [ 68%] Built target bzzz_msgs__rosidl_typesupport_c
+[2.816s] [ 71%] [32m[1mLinking CXX shared library libbzzz_msgs__rosidl_typesupport_cpp.so[0m
+[2.819s] [ 73%] [32m[1mLinking CXX shared library libbzzz_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.877s] [ 75%] [32m[1mLinking CXX shared library libbzzz_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.888s] [ 77%] [32m[1mLinking CXX shared library libbzzz_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.892s] [ 77%] Built target bzzz_msgs__rosidl_typesupport_introspection_cpp
+[2.893s] [ 77%] Built target bzzz_msgs__rosidl_typesupport_cpp
+[2.954s] [ 77%] Built target bzzz_msgs__rosidl_typesupport_fastrtps_cpp
+[2.960s] [ 77%] Built target bzzz_msgs__rosidl_typesupport_fastrtps_c
+[2.972s] [ 77%] Built target bzzz_msgs
+[2.985s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.161s] [ 80%] Built target bzzz_msgs__py
+[3.174s] [ 84%] [32mBuilding C object CMakeFiles/bzzz_msgs__rosidl_generator_py.dir/rosidl_generator_py/bzzz_msgs/msg/_motor_commands_s.c.o[0m
+[3.174s] [ 84%] [32mBuilding C object CMakeFiles/bzzz_msgs__rosidl_generator_py.dir/rosidl_generator_py/bzzz_msgs/msg/_sensor_suite_s.c.o[0m
+[3.297s] [ 86%] [32m[1mLinking C shared library libbzzz_msgs__rosidl_generator_py.so[0m
+[3.365s] [ 86%] Built target bzzz_msgs__rosidl_generator_py
+[3.378s] [ 93%] [32mBuilding C object CMakeFiles/bzzz_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/bzzz_msgs/_bzzz_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[3.378s] [ 93%] [32mBuilding C object CMakeFiles/bzzz_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/bzzz_msgs/_bzzz_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.378s] [ 93%] [32mBuilding C object CMakeFiles/bzzz_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/bzzz_msgs/_bzzz_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.438s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/bzzz_msgs/bzzz_msgs_s__rosidl_typesupport_c.so[0m
+[3.438s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/bzzz_msgs/bzzz_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[3.440s] [100%] [32m[1mLinking C shared module rosidl_generator_py/bzzz_msgs/bzzz_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[3.487s] [100%] Built target bzzz_msgs_s__rosidl_typesupport_c
+[3.488s] [100%] Built target bzzz_msgs_s__rosidl_typesupport_introspection_c
+[3.498s] [100%] Built target bzzz_msgs_s__rosidl_typesupport_fastrtps_c
+[3.505s] Invoked command in '/home/mbell/bzzz_ws/build/bzzz_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/mbell/bzzz_ws/build/bzzz_msgs -- -j16 -l16
+[3.512s] Invoking command in '/home/mbell/bzzz_ws/build/bzzz_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/mbell/bzzz_ws/build/bzzz_msgs
+[3.517s] -- Install configuration: ""
+[3.517s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/ament_index/resource_index/rosidl_interfaces/bzzz_msgs
+[3.518s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/msg/MotorCommands.json
+[3.518s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/msg/SensorSuite.json
+[3.518s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs
+[3.518s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg
+[3.518s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/sensor_suite.h
+[3.518s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail
+[3.518s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/motor_commands__struct.h
+[3.518s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/sensor_suite__type_support.h
+[3.518s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/sensor_suite__functions.h
+[3.519s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/motor_commands__type_support.h
+[3.519s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/motor_commands__functions.c
+[3.519s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/sensor_suite__struct.h
+[3.519s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/sensor_suite__type_support.c
+[3.519s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/sensor_suite__functions.c
+[3.519s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/motor_commands__description.c
+[3.519s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/motor_commands__functions.h
+[3.519s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/sensor_suite__description.c
+[3.519s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/motor_commands__type_support.c
+[3.519s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.520s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/motor_commands.h
+[3.520s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/environment/library_path.sh
+[3.520s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/environment/library_path.dsv
+[3.520s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/libbzzz_msgs__rosidl_generator_c.so
+[3.520s] -- Set non-toolchain portion of runtime path of "/home/mbell/bzzz_ws/install/bzzz_msgs/lib/libbzzz_msgs__rosidl_generator_c.so" to ""
+[3.520s] -- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs
+[3.520s] -- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg
+[3.520s] -- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail
+[3.520s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/sensor_suite__rosidl_typesupport_fastrtps_c.h
+[3.520s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/motor_commands__rosidl_typesupport_fastrtps_c.h
+[3.520s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.520s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/libbzzz_msgs__rosidl_typesupport_fastrtps_c.so
+[3.521s] -- Set non-toolchain portion of runtime path of "/home/mbell/bzzz_ws/install/bzzz_msgs/lib/libbzzz_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[3.521s] -- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs
+[3.521s] -- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg
+[3.521s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.521s] -- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail
+[3.521s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/sensor_suite__rosidl_typesupport_introspection_c.h
+[3.521s] -- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/sensor_suite__type_support.c
+[3.521s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/motor_commands__rosidl_typesupport_introspection_c.h
+[3.521s] -- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/motor_commands__type_support.c
+[3.522s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/libbzzz_msgs__rosidl_typesupport_introspection_c.so
+[3.522s] -- Set non-toolchain portion of runtime path of "/home/mbell/bzzz_ws/install/bzzz_msgs/lib/libbzzz_msgs__rosidl_typesupport_introspection_c.so" to ""
+[3.522s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/libbzzz_msgs__rosidl_typesupport_c.so
+[3.522s] -- Set non-toolchain portion of runtime path of "/home/mbell/bzzz_ws/install/bzzz_msgs/lib/libbzzz_msgs__rosidl_typesupport_c.so" to ""
+[3.522s] -- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs
+[3.522s] -- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg
+[3.522s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/motor_commands.hpp
+[3.522s] -- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail
+[3.522s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/sensor_suite__type_support.hpp
+[3.522s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/motor_commands__struct.hpp
+[3.522s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/sensor_suite__traits.hpp
+[3.523s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/motor_commands__type_support.hpp
+[3.523s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/motor_commands__builder.hpp
+[3.523s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/sensor_suite__struct.hpp
+[3.523s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/motor_commands__traits.hpp
+[3.523s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/sensor_suite__builder.hpp
+[3.523s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/sensor_suite.hpp
+[3.523s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.523s] -- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs
+[3.523s] -- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg
+[3.523s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.523s] -- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail
+[3.523s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/sensor_suite__rosidl_typesupport_fastrtps_cpp.hpp
+[3.523s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/motor_commands__rosidl_typesupport_fastrtps_cpp.hpp
+[3.523s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/dds_fastrtps
+[3.523s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/libbzzz_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.524s] -- Set non-toolchain portion of runtime path of "/home/mbell/bzzz_ws/install/bzzz_msgs/lib/libbzzz_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.524s] -- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs
+[3.524s] -- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg
+[3.524s] -- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail
+[3.524s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/sensor_suite__rosidl_typesupport_introspection_cpp.hpp
+[3.524s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/motor_commands__type_support.cpp
+[3.524s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/motor_commands__rosidl_typesupport_introspection_cpp.hpp
+[3.524s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/sensor_suite__type_support.cpp
+[3.524s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/libbzzz_msgs__rosidl_typesupport_introspection_cpp.so
+[3.524s] -- Set non-toolchain portion of runtime path of "/home/mbell/bzzz_ws/install/bzzz_msgs/lib/libbzzz_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[3.525s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/libbzzz_msgs__rosidl_typesupport_cpp.so
+[3.525s] -- Set non-toolchain portion of runtime path of "/home/mbell/bzzz_ws/install/bzzz_msgs/lib/libbzzz_msgs__rosidl_typesupport_cpp.so" to ""
+[3.525s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/environment/pythonpath.sh
+[3.525s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/environment/pythonpath.dsv
+[3.525s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs-0.0.0-py3.12.egg-info
+[3.525s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[3.525s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[3.525s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[3.525s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[3.525s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs
+[3.525s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/bzzz_msgs_s__rosidl_typesupport_introspection_c.so
+[3.525s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/bzzz_msgs_s__rosidl_typesupport_fastrtps_c.so
+[3.525s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/_bzzz_msgs_s.ep.rosidl_typesupport_c.c
+[3.525s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/bzzz_msgs_s__rosidl_typesupport_c.so
+[3.525s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/msg
+[3.525s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/msg/_sensor_suite_s.c
+[3.525s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/msg/__init__.py
+[3.525s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/msg/_motor_commands.py
+[3.525s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/msg/_motor_commands_s.c
+[3.525s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/msg/_sensor_suite.py
+[3.525s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/__init__.py
+[3.525s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/_bzzz_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.525s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/_bzzz_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.553s] Listing '/home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs'...
+[3.553s] Compiling '/home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/__init__.py'...
+[3.553s] Listing '/home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/msg'...
+[3.553s] Compiling '/home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/msg/__init__.py'...
+[3.553s] Compiling '/home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/msg/_motor_commands.py'...
+[3.553s] Compiling '/home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/msg/_sensor_suite.py'...
+[3.557s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/bzzz_msgs_s__rosidl_typesupport_fastrtps_c.so
+[3.557s] -- Set non-toolchain portion of runtime path of "/home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/bzzz_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[3.557s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/bzzz_msgs_s__rosidl_typesupport_introspection_c.so
+[3.557s] -- Set non-toolchain portion of runtime path of "/home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/bzzz_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[3.558s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/bzzz_msgs_s__rosidl_typesupport_c.so
+[3.558s] -- Set non-toolchain portion of runtime path of "/home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/bzzz_msgs_s__rosidl_typesupport_c.so" to ""
+[3.558s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/libbzzz_msgs__rosidl_generator_py.so
+[3.558s] -- Set non-toolchain portion of runtime path of "/home/mbell/bzzz_ws/install/bzzz_msgs/lib/libbzzz_msgs__rosidl_generator_py.so" to ""
+[3.558s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/ament_index/resource_index/rust_packages/bzzz_msgs
+[3.558s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/rust
+[3.558s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/rust/src
+[3.559s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/rust/src/lib.rs
+[3.559s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/rust/src/msg.rs
+[3.559s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/rust/src/msg
+[3.559s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/rust/src/msg/rmw.rs
+[3.559s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/rust/Cargo.toml
+[3.559s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/rust/build.rs
+[3.559s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/msg/MotorCommands.idl
+[3.559s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/msg/SensorSuite.idl
+[3.559s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/msg/MotorCommands.msg
+[3.560s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/msg/SensorSuite.msg
+[3.560s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/ament_index/resource_index/package_run_dependencies/bzzz_msgs
+[3.560s] -- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/ament_index/resource_index/parent_prefix_path/bzzz_msgs
+[3.560s] -- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/environment/ament_prefix_path.sh
+[3.560s] -- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/environment/ament_prefix_path.dsv
+[3.560s] -- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/environment/path.sh
+[3.560s] -- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/environment/path.dsv
+[3.560s] -- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/local_setup.bash
+[3.560s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/local_setup.sh
+[3.561s] -- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/local_setup.zsh
+[3.561s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/local_setup.dsv
+[3.561s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/package.dsv
+[3.561s] -- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/ament_index/resource_index/packages/bzzz_msgs
+[3.561s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/export_bzzz_msgs__rosidl_generator_cExport.cmake
+[3.561s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/export_bzzz_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.561s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/export_bzzz_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.561s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/export_bzzz_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.561s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/bzzz_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.561s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/bzzz_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.562s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/bzzz_msgs__rosidl_typesupport_cExport.cmake
+[3.562s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/bzzz_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.562s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/export_bzzz_msgs__rosidl_generator_cppExport.cmake
+[3.562s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/export_bzzz_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.562s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/export_bzzz_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.562s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/bzzz_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.562s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/bzzz_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.562s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/bzzz_msgs__rosidl_typesupport_cppExport.cmake
+[3.562s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/bzzz_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.562s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/export_bzzz_msgs__rosidl_generator_pyExport.cmake
+[3.562s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/export_bzzz_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.562s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/rosidl_cmake-extras.cmake
+[3.562s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.562s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.562s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.562s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.563s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.563s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.563s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/bzzz_msgsConfig.cmake
+[3.563s] -- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/bzzz_msgsConfig-version.cmake
+[3.563s] -- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/package.xml
+[3.564s] Invoked command in '/home/mbell/bzzz_ws/build/bzzz_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/mbell/bzzz_ws/build/bzzz_msgs

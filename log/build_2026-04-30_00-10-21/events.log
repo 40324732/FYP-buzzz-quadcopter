@@ -1,0 +1,389 @@
+[0.000000] (-) TimerEvent: {}
+[0.000485] (bzzz_msgs) JobQueued: {'identifier': 'bzzz_msgs', 'dependencies': OrderedDict()}
+[0.000534] (bzzz_core) JobQueued: {'identifier': 'bzzz_core', 'dependencies': OrderedDict({'bzzz_msgs': '/home/mbell/bzzz_ws/install/bzzz_msgs'})}
+[0.000549] (bzzz_msgs) JobStarted: {'identifier': 'bzzz_msgs'}
+[0.010510] (bzzz_msgs) JobProgress: {'identifier': 'bzzz_msgs', 'progress': 'cmake'}
+[0.012315] (bzzz_msgs) JobProgress: {'identifier': 'bzzz_msgs', 'progress': 'build'}
+[0.012450] (bzzz_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mbell/bzzz_ws/build/bzzz_msgs', '--', '-j16', '-l16'], 'cwd': '/home/mbell/bzzz_ws/build/bzzz_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mbell', 'GIT_ASKPASS': '/home/mbell/.vscode-server/bin/41dd792b5e652393e7787322889ed5fdc58bd75b/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/mbell/bzzz_ws/install/bzzz_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mbell', 'OLDPWD': '/home/mbell/bzzz_ws/src', 'TERM_PROGRAM_VERSION': '1.115.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-02907792-4579-4284-8ce6-ac8036bddc20.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/mbell/.vscode-server/bin/41dd792b5e652393e7787322889ed5fdc58bd75b/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/mbell/.vscode-server/bin/41dd792b5e652393e7787322889ed5fdc58bd75b/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mbell/bzzz_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mbell', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/22502_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/mbell/.vscode-server/bin/41dd792b5e652393e7787322889ed5fdc58bd75b/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/matty/AppData/Local/Programs/Python/Python314/Scripts/:/mnt/c/Users/matty/AppData/Local/Programs/Python/Python314/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PostgreSQL/16/bin:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/matty/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/matty/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/matty/AppData/Local/Python/bin:/mnt/c/Users/matty/AppData/Roaming/npm:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-be83f88392.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/mbell/bzzz_ws/install/bzzz_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/mbell/bzzz_ws/build/bzzz_msgs', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/mbell/bzzz_ws/install/bzzz_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[0.099750] (-) TimerEvent: {}
+[0.149594] (bzzz_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.199786] (-) TimerEvent: {}
+[0.260308] (bzzz_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.265453] (bzzz_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.299857] (-) TimerEvent: {}
+[0.389957] (bzzz_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.399983] (-) TimerEvent: {}
+[0.431485] (bzzz_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.500104] (-) TimerEvent: {}
+[0.600360] (-) TimerEvent: {}
+[0.611569] (bzzz_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[0.680778] (bzzz_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.700438] (-) TimerEvent: {}
+[0.762911] (bzzz_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.764905] (bzzz_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[0.800643] (-) TimerEvent: {}
+[0.900874] (-) TimerEvent: {}
+[1.001102] (-) TimerEvent: {}
+[1.050422] (bzzz_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[1.077259] (bzzz_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.078922] (bzzz_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.101220] (-) TimerEvent: {}
+[1.102852] (bzzz_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.104028] (bzzz_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.107975] (bzzz_msgs) StdoutLine: {'line': b'-- Configuring done (1.0s)\n'}
+[1.174996] (bzzz_msgs) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[1.184814] (bzzz_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/mbell/bzzz_ws/build/bzzz_msgs\n'}
+[1.201342] (-) TimerEvent: {}
+[1.216210] (bzzz_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[1.216387] (bzzz_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[1.227237] (bzzz_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_bzzz_msgs\n'}
+[1.301436] (-) TimerEvent: {}
+[1.367355] (bzzz_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.379052] (bzzz_msgs) StdoutLine: {'line': b'writing bzzz_msgs.egg-info/PKG-INFO\n'}
+[1.379687] (bzzz_msgs) StdoutLine: {'line': b'writing dependency_links to bzzz_msgs.egg-info/dependency_links.txt\n'}
+[1.379885] (bzzz_msgs) StdoutLine: {'line': b'writing top-level names to bzzz_msgs.egg-info/top_level.txt\n'}
+[1.384577] (bzzz_msgs) StdoutLine: {'line': b'[  4%] Built target bzzz_msgs__rosidl_generator_type_description\n'}
+[1.391768] (bzzz_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.398955] (bzzz_msgs) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.400013] (bzzz_msgs) StdoutLine: {'line': b'[  8%] Built target bzzz_msgs__rs\n'}
+[1.401494] (-) TimerEvent: {}
+[1.413622] (bzzz_msgs) StdoutLine: {'line': b"reading manifest file 'bzzz_msgs.egg-info/SOURCES.txt'\n"}
+[1.414661] (bzzz_msgs) StdoutLine: {'line': b"writing manifest file 'bzzz_msgs.egg-info/SOURCES.txt'\n"}
+[1.432761] (bzzz_msgs) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_bzzz_msgs_egg\n'}
+[1.501589] (-) TimerEvent: {}
+[1.590417] (bzzz_msgs) StdoutLine: {'line': b'[  8%] Built target bzzz_msgs__cpp\n'}
+[1.601653] (-) TimerEvent: {}
+[1.630866] (bzzz_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/bzzz_msgs__rosidl_generator_c.dir/rosidl_generator_c/bzzz_msgs/msg/detail/motor_commands__description.c.o\x1b[0m\n'}
+[1.631220] (bzzz_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/bzzz_msgs__rosidl_generator_c.dir/rosidl_generator_c/bzzz_msgs/msg/detail/motor_commands__functions.c.o\x1b[0m\n'}
+[1.631305] (bzzz_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/bzzz_msgs__rosidl_generator_c.dir/rosidl_generator_c/bzzz_msgs/msg/detail/motor_commands__type_support.c.o\x1b[0m\n'}
+[1.631361] (bzzz_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/bzzz_msgs__rosidl_generator_c.dir/rosidl_generator_c/bzzz_msgs/msg/detail/sensor_suite__description.c.o\x1b[0m\n'}
+[1.631404] (bzzz_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/bzzz_msgs__rosidl_generator_c.dir/rosidl_generator_c/bzzz_msgs/msg/detail/sensor_suite__functions.c.o\x1b[0m\n'}
+[1.631646] (bzzz_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/bzzz_msgs__rosidl_generator_c.dir/rosidl_generator_c/bzzz_msgs/msg/detail/sensor_suite__type_support.c.o\x1b[0m\n'}
+[1.701723] (-) TimerEvent: {}
+[1.801928] (-) TimerEvent: {}
+[1.802691] (bzzz_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking C shared library libbzzz_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[1.887725] (bzzz_msgs) StdoutLine: {'line': b'[ 24%] Built target bzzz_msgs__rosidl_generator_c\n'}
+[1.894362] (bzzz_msgs) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.894728] (bzzz_msgs) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.894947] (bzzz_msgs) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.895044] (bzzz_msgs) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.895089] (bzzz_msgs) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.895148] (bzzz_msgs) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.902058] (-) TimerEvent: {}
+[2.002444] (-) TimerEvent: {}
+[2.082870] (bzzz_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/bzzz_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bzzz_msgs/msg/motor_commands__type_support.cpp.o\x1b[0m\n'}
+[2.083583] (bzzz_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/bzzz_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bzzz_msgs/msg/motor_commands__type_support.cpp.o\x1b[0m\n'}
+[2.083645] (bzzz_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/bzzz_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bzzz_msgs/msg/sensor_suite__type_support.cpp.o\x1b[0m\n'}
+[2.084556] (bzzz_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/bzzz_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bzzz_msgs/msg/sensor_suite__type_support.cpp.o\x1b[0m\n'}
+[2.094942] (bzzz_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/bzzz_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bzzz_msgs/msg/detail/motor_commands__type_support.c.o\x1b[0m\n'}
+[2.096842] (bzzz_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/bzzz_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bzzz_msgs/msg/detail/sensor_suite__type_support.c.o\x1b[0m\n'}
+[2.098215] (bzzz_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/bzzz_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bzzz_msgs/msg/detail/motor_commands__type_support.cpp.o\x1b[0m\n'}
+[2.098508] (bzzz_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/bzzz_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bzzz_msgs/msg/detail/sensor_suite__type_support.cpp.o\x1b[0m\n'}
+[2.102501] (-) TimerEvent: {}
+[2.125443] (bzzz_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking C shared library libbzzz_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.135999] (bzzz_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/bzzz_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bzzz_msgs/msg/detail/dds_fastrtps/motor_commands__type_support.cpp.o\x1b[0m\n'}
+[2.136328] (bzzz_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/bzzz_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bzzz_msgs/msg/detail/dds_fastrtps/sensor_suite__type_support.cpp.o\x1b[0m\n'}
+[2.148994] (bzzz_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/bzzz_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bzzz_msgs/msg/detail/motor_commands__type_support_c.cpp.o\x1b[0m\n'}
+[2.149184] (bzzz_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/bzzz_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bzzz_msgs/msg/detail/sensor_suite__type_support_c.cpp.o\x1b[0m\n'}
+[2.202687] (-) TimerEvent: {}
+[2.217157] (bzzz_msgs) StdoutLine: {'line': b'[ 66%] Built target bzzz_msgs__rosidl_typesupport_introspection_c\n'}
+[2.238300] (bzzz_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libbzzz_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.302770] (-) TimerEvent: {}
+[2.351435] (bzzz_msgs) StdoutLine: {'line': b'[ 68%] Built target bzzz_msgs__rosidl_typesupport_c\n'}
+[2.402878] (-) TimerEvent: {}
+[2.428265] (bzzz_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libbzzz_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.467105] (bzzz_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libbzzz_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.502983] (-) TimerEvent: {}
+[2.516459] (bzzz_msgs) StdoutLine: {'line': b'[ 73%] Built target bzzz_msgs__rosidl_typesupport_cpp\n'}
+[2.545561] (bzzz_msgs) StdoutLine: {'line': b'[ 73%] Built target bzzz_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.567534] (bzzz_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libbzzz_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.568550] (bzzz_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libbzzz_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.603083] (-) TimerEvent: {}
+[2.631469] (bzzz_msgs) StdoutLine: {'line': b'[ 77%] Built target bzzz_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.632661] (bzzz_msgs) StdoutLine: {'line': b'[ 77%] Built target bzzz_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.645749] (bzzz_msgs) StdoutLine: {'line': b'[ 77%] Built target bzzz_msgs\n'}
+[2.658862] (bzzz_msgs) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.703174] (-) TimerEvent: {}
+[2.803418] (-) TimerEvent: {}
+[2.903695] (-) TimerEvent: {}
+[2.907958] (bzzz_msgs) StdoutLine: {'line': b'[ 80%] Built target bzzz_msgs__py\n'}
+[2.925705] (bzzz_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/bzzz_msgs__rosidl_generator_py.dir/rosidl_generator_py/bzzz_msgs/msg/_motor_commands_s.c.o\x1b[0m\n'}
+[2.925879] (bzzz_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/bzzz_msgs__rosidl_generator_py.dir/rosidl_generator_py/bzzz_msgs/msg/_sensor_suite_s.c.o\x1b[0m\n'}
+[3.003821] (-) TimerEvent: {}
+[3.044117] (bzzz_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library libbzzz_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[3.103922] (-) TimerEvent: {}
+[3.118067] (bzzz_msgs) StdoutLine: {'line': b'[ 86%] Built target bzzz_msgs__rosidl_generator_py\n'}
+[3.134459] (bzzz_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/bzzz_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/bzzz_msgs/_bzzz_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.134648] (bzzz_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/bzzz_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/bzzz_msgs/_bzzz_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.134732] (bzzz_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/bzzz_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/bzzz_msgs/_bzzz_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.201130] (bzzz_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/bzzz_msgs/bzzz_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.201370] (bzzz_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/bzzz_msgs/bzzz_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.201801] (bzzz_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/bzzz_msgs/bzzz_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.204075] (-) TimerEvent: {}
+[3.257844] (bzzz_msgs) StdoutLine: {'line': b'[100%] Built target bzzz_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[3.258211] (bzzz_msgs) StdoutLine: {'line': b'[100%] Built target bzzz_msgs_s__rosidl_typesupport_introspection_c\n'}
+[3.258315] (bzzz_msgs) StdoutLine: {'line': b'[100%] Built target bzzz_msgs_s__rosidl_typesupport_c\n'}
+[3.266677] (bzzz_msgs) CommandEnded: {'returncode': 0}
+[3.267294] (bzzz_msgs) JobProgress: {'identifier': 'bzzz_msgs', 'progress': 'install'}
+[3.274162] (bzzz_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mbell/bzzz_ws/build/bzzz_msgs'], 'cwd': '/home/mbell/bzzz_ws/build/bzzz_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mbell', 'GIT_ASKPASS': '/home/mbell/.vscode-server/bin/41dd792b5e652393e7787322889ed5fdc58bd75b/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/mbell/bzzz_ws/install/bzzz_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mbell', 'OLDPWD': '/home/mbell/bzzz_ws/src', 'TERM_PROGRAM_VERSION': '1.115.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-02907792-4579-4284-8ce6-ac8036bddc20.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/mbell/.vscode-server/bin/41dd792b5e652393e7787322889ed5fdc58bd75b/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/mbell/.vscode-server/bin/41dd792b5e652393e7787322889ed5fdc58bd75b/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mbell/bzzz_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mbell', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/22502_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/mbell/.vscode-server/bin/41dd792b5e652393e7787322889ed5fdc58bd75b/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/matty/AppData/Local/Programs/Python/Python314/Scripts/:/mnt/c/Users/matty/AppData/Local/Programs/Python/Python314/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PostgreSQL/16/bin:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/matty/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/matty/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/matty/AppData/Local/Python/bin:/mnt/c/Users/matty/AppData/Roaming/npm:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-be83f88392.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/mbell/bzzz_ws/install/bzzz_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/mbell/bzzz_ws/build/bzzz_msgs', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/mbell/bzzz_ws/install/bzzz_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[3.280080] (bzzz_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.280418] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/ament_index/resource_index/rosidl_interfaces/bzzz_msgs\n'}
+[3.280470] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/msg/MotorCommands.json\n'}
+[3.280631] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/msg/SensorSuite.json\n'}
+[3.280966] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs\n'}
+[3.281190] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg\n'}
+[3.281241] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/sensor_suite.h\n'}
+[3.281436] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail\n'}
+[3.281886] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/motor_commands__struct.h\n'}
+[3.282124] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/sensor_suite__type_support.h\n'}
+[3.282279] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/sensor_suite__functions.h\n'}
+[3.282361] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/motor_commands__type_support.h\n'}
+[3.282530] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/motor_commands__functions.c\n'}
+[3.282613] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/sensor_suite__struct.h\n'}
+[3.282725] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/sensor_suite__type_support.c\n'}
+[3.282921] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/sensor_suite__functions.c\n'}
+[3.282975] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/motor_commands__description.c\n'}
+[3.283141] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/motor_commands__functions.h\n'}
+[3.283283] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/sensor_suite__description.c\n'}
+[3.283328] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/motor_commands__type_support.c\n'}
+[3.283368] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.283406] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/motor_commands.h\n'}
+[3.283448] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/environment/library_path.sh\n'}
+[3.283499] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/environment/library_path.dsv\n'}
+[3.284450] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/libbzzz_msgs__rosidl_generator_c.so\n'}
+[3.284704] (bzzz_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mbell/bzzz_ws/install/bzzz_msgs/lib/libbzzz_msgs__rosidl_generator_c.so" to ""\n'}
+[3.284921] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs\n'}
+[3.285521] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg\n'}
+[3.285638] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail\n'}
+[3.286433] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/sensor_suite__rosidl_typesupport_fastrtps_c.h\n'}
+[3.286585] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/motor_commands__rosidl_typesupport_fastrtps_c.h\n'}
+[3.286693] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.287507] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/libbzzz_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[3.287788] (bzzz_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mbell/bzzz_ws/install/bzzz_msgs/lib/libbzzz_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.287889] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs\n'}
+[3.288353] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg\n'}
+[3.288515] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.288602] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail\n'}
+[3.288880] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/sensor_suite__rosidl_typesupport_introspection_c.h\n'}
+[3.289153] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/sensor_suite__type_support.c\n'}
+[3.289373] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/motor_commands__rosidl_typesupport_introspection_c.h\n'}
+[3.289428] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/motor_commands__type_support.c\n'}
+[3.290351] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/libbzzz_msgs__rosidl_typesupport_introspection_c.so\n'}
+[3.290631] (bzzz_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mbell/bzzz_ws/install/bzzz_msgs/lib/libbzzz_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.291933] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/libbzzz_msgs__rosidl_typesupport_c.so\n'}
+[3.292114] (bzzz_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mbell/bzzz_ws/install/bzzz_msgs/lib/libbzzz_msgs__rosidl_typesupport_c.so" to ""\n'}
+[3.292233] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs\n'}
+[3.292690] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg\n'}
+[3.292882] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/motor_commands.hpp\n'}
+[3.292971] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail\n'}
+[3.293082] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/sensor_suite__type_support.hpp\n'}
+[3.293192] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/motor_commands__struct.hpp\n'}
+[3.293362] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/sensor_suite__traits.hpp\n'}
+[3.293415] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/motor_commands__type_support.hpp\n'}
+[3.293593] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/motor_commands__builder.hpp\n'}
+[3.293859] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/sensor_suite__struct.hpp\n'}
+[3.293924] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/motor_commands__traits.hpp\n'}
+[3.293968] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/sensor_suite__builder.hpp\n'}
+[3.294104] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/sensor_suite.hpp\n'}
+[3.294196] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[3.294238] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs\n'}
+[3.294566] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg\n'}
+[3.294763] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.294823] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail\n'}
+[3.295001] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/sensor_suite__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.295136] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/motor_commands__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.295205] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/dds_fastrtps\n'}
+[3.296571] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/libbzzz_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.296815] (bzzz_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mbell/bzzz_ws/install/bzzz_msgs/lib/libbzzz_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.296927] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs\n'}
+[3.297077] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg\n'}
+[3.297278] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail\n'}
+[3.297508] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/sensor_suite__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.297682] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/motor_commands__type_support.cpp\n'}
+[3.297884] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/motor_commands__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.298003] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/include/bzzz_msgs/bzzz_msgs/msg/detail/sensor_suite__type_support.cpp\n'}
+[3.298752] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/libbzzz_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[3.299030] (bzzz_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mbell/bzzz_ws/install/bzzz_msgs/lib/libbzzz_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.299630] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/libbzzz_msgs__rosidl_typesupport_cpp.so\n'}
+[3.299886] (bzzz_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mbell/bzzz_ws/install/bzzz_msgs/lib/libbzzz_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[3.300050] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/environment/pythonpath.sh\n'}
+[3.300209] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/environment/pythonpath.dsv\n'}
+[3.300256] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs-0.0.0-py3.12.egg-info\n'}
+[3.300294] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[3.300456] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[3.300511] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[3.300550] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[3.300635] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs\n'}
+[3.300763] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/bzzz_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[3.300944] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/bzzz_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[3.301109] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/_bzzz_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[3.301187] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/bzzz_msgs_s__rosidl_typesupport_c.so\n'}
+[3.301328] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/msg\n'}
+[3.301374] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/msg/_sensor_suite_s.c\n'}
+[3.301510] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/msg/__init__.py\n'}
+[3.301730] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/msg/_motor_commands.py\n'}
+[3.301919] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/msg/_motor_commands_s.c\n'}
+[3.302068] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/msg/_sensor_suite.py\n'}
+[3.302111] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/__init__.py\n'}
+[3.302148] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/_bzzz_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.302184] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/_bzzz_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.304284] (-) TimerEvent: {}
+[3.339189] (bzzz_msgs) StdoutLine: {'line': b"Listing '/home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs'...\n"}
+[3.339373] (bzzz_msgs) StdoutLine: {'line': b"Compiling '/home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/__init__.py'...\n"}
+[3.339451] (bzzz_msgs) StdoutLine: {'line': b"Listing '/home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/msg'...\n"}
+[3.339569] (bzzz_msgs) StdoutLine: {'line': b"Compiling '/home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/msg/__init__.py'...\n"}
+[3.339669] (bzzz_msgs) StdoutLine: {'line': b"Compiling '/home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/msg/_motor_commands.py'...\n"}
+[3.339748] (bzzz_msgs) StdoutLine: {'line': b"Compiling '/home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/msg/_sensor_suite.py'...\n"}
+[3.344085] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/bzzz_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[3.344431] (bzzz_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/bzzz_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.344525] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/bzzz_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[3.344742] (bzzz_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/bzzz_msgs_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.344846] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/bzzz_msgs_s__rosidl_typesupport_c.so\n'}
+[3.344994] (bzzz_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages/bzzz_msgs/bzzz_msgs_s__rosidl_typesupport_c.so" to ""\n'}
+[3.346068] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/lib/libbzzz_msgs__rosidl_generator_py.so\n'}
+[3.346271] (bzzz_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mbell/bzzz_ws/install/bzzz_msgs/lib/libbzzz_msgs__rosidl_generator_py.so" to ""\n'}
+[3.346452] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/ament_index/resource_index/rust_packages/bzzz_msgs\n'}
+[3.346500] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/rust\n'}
+[3.346736] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/rust/src\n'}
+[3.346916] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/rust/src/lib.rs\n'}
+[3.347412] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/rust/src/msg.rs\n'}
+[3.347591] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/rust/src/msg\n'}
+[3.347734] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/rust/src/msg/rmw.rs\n'}
+[3.348152] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/rust/Cargo.toml\n'}
+[3.348491] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/rust/build.rs\n'}
+[3.348677] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/msg/MotorCommands.idl\n'}
+[3.349055] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/msg/SensorSuite.idl\n'}
+[3.349307] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/msg/MotorCommands.msg\n'}
+[3.349417] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/msg/SensorSuite.msg\n'}
+[3.349464] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/ament_index/resource_index/package_run_dependencies/bzzz_msgs\n'}
+[3.349503] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/ament_index/resource_index/parent_prefix_path/bzzz_msgs\n'}
+[3.349541] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/environment/ament_prefix_path.sh\n'}
+[3.349592] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/environment/ament_prefix_path.dsv\n'}
+[3.349643] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/environment/path.sh\n'}
+[3.349680] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/environment/path.dsv\n'}
+[3.349718] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/local_setup.bash\n'}
+[3.349766] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/local_setup.sh\n'}
+[3.349806] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/local_setup.zsh\n'}
+[3.349846] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/local_setup.dsv\n'}
+[3.350031] (bzzz_msgs) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/package.dsv\n'}
+[3.350124] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/ament_index/resource_index/packages/bzzz_msgs\n'}
+[3.350310] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/export_bzzz_msgs__rosidl_generator_cExport.cmake\n'}
+[3.350509] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/export_bzzz_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.350708] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/export_bzzz_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.350798] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/export_bzzz_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.351170] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/bzzz_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.351324] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/bzzz_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.351537] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/bzzz_msgs__rosidl_typesupport_cExport.cmake\n'}
+[3.351633] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/bzzz_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.351998] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/export_bzzz_msgs__rosidl_generator_cppExport.cmake\n'}
+[3.352394] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/export_bzzz_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.352610] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/export_bzzz_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.352920] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/bzzz_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.353024] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/bzzz_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.353323] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/bzzz_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[3.353482] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/bzzz_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.353767] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/export_bzzz_msgs__rosidl_generator_pyExport.cmake\n'}
+[3.353824] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/export_bzzz_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.354093] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[3.354255] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.354338] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.354381] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.354448] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.354488] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.354525] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.354560] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/bzzz_msgsConfig.cmake\n'}
+[3.354597] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/cmake/bzzz_msgsConfig-version.cmake\n'}
+[3.354631] (bzzz_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mbell/bzzz_ws/install/bzzz_msgs/share/bzzz_msgs/package.xml\n'}
+[3.356019] (bzzz_msgs) CommandEnded: {'returncode': 0}
+[3.382164] (bzzz_msgs) JobEnded: {'identifier': 'bzzz_msgs', 'rc': 0}
+[3.383260] (bzzz_core) JobStarted: {'identifier': 'bzzz_core'}
+[3.404546] (-) TimerEvent: {}
+[3.458654] (bzzz_core) JobProgress: {'identifier': 'bzzz_core', 'progress': 'cmake'}
+[3.459996] (bzzz_core) JobProgress: {'identifier': 'bzzz_core', 'progress': 'build'}
+[3.460269] (bzzz_core) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mbell/bzzz_ws/build/bzzz_core', '--', '-j16', '-l16'], 'cwd': '/home/mbell/bzzz_ws/build/bzzz_core', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mbell', 'GIT_ASKPASS': '/home/mbell/.vscode-server/bin/41dd792b5e652393e7787322889ed5fdc58bd75b/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/mbell/bzzz_ws/install/bzzz_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mbell', 'OLDPWD': '/home/mbell/bzzz_ws/src', 'TERM_PROGRAM_VERSION': '1.115.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-02907792-4579-4284-8ce6-ac8036bddc20.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/mbell/.vscode-server/bin/41dd792b5e652393e7787322889ed5fdc58bd75b/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/mbell/.vscode-server/bin/41dd792b5e652393e7787322889ed5fdc58bd75b/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mbell/bzzz_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mbell', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/22502_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/mbell/.vscode-server/bin/41dd792b5e652393e7787322889ed5fdc58bd75b/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/matty/AppData/Local/Programs/Python/Python314/Scripts/:/mnt/c/Users/matty/AppData/Local/Programs/Python/Python314/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PostgreSQL/16/bin:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/matty/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/matty/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/matty/AppData/Local/Python/bin:/mnt/c/Users/matty/AppData/Roaming/npm:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-be83f88392.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/mbell/bzzz_ws/install/bzzz_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/mbell/bzzz_ws/build/bzzz_core', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/mbell/bzzz_ws/install/bzzz_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[3.504847] (-) TimerEvent: {}
+[3.506112] (bzzz_core) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/esp32_bridge.dir/src/esp32_bridge_node.cpp.o\x1b[0m\n'}
+[3.605661] (-) TimerEvent: {}
+[3.705961] (-) TimerEvent: {}
+[3.807314] (-) TimerEvent: {}
+[3.907871] (-) TimerEvent: {}
+[4.010705] (-) TimerEvent: {}
+[4.112782] (-) TimerEvent: {}
+[4.214032] (-) TimerEvent: {}
+[4.315184] (-) TimerEvent: {}
+[4.415854] (-) TimerEvent: {}
+[4.517029] (-) TimerEvent: {}
+[4.618197] (-) TimerEvent: {}
+[4.718559] (-) TimerEvent: {}
+[4.819591] (-) TimerEvent: {}
+[4.920708] (-) TimerEvent: {}
+[5.021682] (-) TimerEvent: {}
+[5.122947] (-) TimerEvent: {}
+[5.223309] (-) TimerEvent: {}
+[5.324580] (-) TimerEvent: {}
+[5.425765] (-) TimerEvent: {}
+[5.526494] (-) TimerEvent: {}
+[5.627672] (-) TimerEvent: {}
+[5.728286] (-) TimerEvent: {}
+[5.828795] (-) TimerEvent: {}
+[5.929850] (-) TimerEvent: {}
+[6.030898] (-) TimerEvent: {}
+[6.131864] (-) TimerEvent: {}
+[6.232263] (-) TimerEvent: {}
+[6.332748] (-) TimerEvent: {}
+[6.433016] (-) TimerEvent: {}
+[6.533261] (-) TimerEvent: {}
+[6.633500] (-) TimerEvent: {}
+[6.733755] (-) TimerEvent: {}
+[6.833993] (-) TimerEvent: {}
+[6.934241] (-) TimerEvent: {}
+[7.034496] (-) TimerEvent: {}
+[7.134748] (-) TimerEvent: {}
+[7.235010] (-) TimerEvent: {}
+[7.335271] (-) TimerEvent: {}
+[7.435508] (-) TimerEvent: {}
+[7.535906] (-) TimerEvent: {}
+[7.636150] (-) TimerEvent: {}
+[7.736452] (-) TimerEvent: {}
+[7.836760] (-) TimerEvent: {}
+[7.937059] (-) TimerEvent: {}
+[8.037419] (-) TimerEvent: {}
+[8.137729] (-) TimerEvent: {}
+[8.237948] (-) TimerEvent: {}
+[8.338169] (-) TimerEvent: {}
+[8.438400] (-) TimerEvent: {}
+[8.538736] (-) TimerEvent: {}
+[8.638980] (-) TimerEvent: {}
+[8.739237] (-) TimerEvent: {}
+[8.839486] (-) TimerEvent: {}
+[8.939744] (-) TimerEvent: {}
+[9.040108] (-) TimerEvent: {}
+[9.104389] (bzzz_core) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable esp32_bridge\x1b[0m\n'}
+[9.140207] (-) TimerEvent: {}
+[9.240416] (-) TimerEvent: {}
+[9.340689] (-) TimerEvent: {}
+[9.391542] (bzzz_core) StdoutLine: {'line': b'[100%] Built target esp32_bridge\n'}
+[9.398607] (bzzz_core) CommandEnded: {'returncode': 0}
+[9.399609] (bzzz_core) JobProgress: {'identifier': 'bzzz_core', 'progress': 'install'}
+[9.399825] (bzzz_core) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mbell/bzzz_ws/build/bzzz_core'], 'cwd': '/home/mbell/bzzz_ws/build/bzzz_core', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mbell', 'GIT_ASKPASS': '/home/mbell/.vscode-server/bin/41dd792b5e652393e7787322889ed5fdc58bd75b/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/mbell/bzzz_ws/install/bzzz_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mbell', 'OLDPWD': '/home/mbell/bzzz_ws/src', 'TERM_PROGRAM_VERSION': '1.115.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-02907792-4579-4284-8ce6-ac8036bddc20.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/mbell/.vscode-server/bin/41dd792b5e652393e7787322889ed5fdc58bd75b/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/mbell/.vscode-server/bin/41dd792b5e652393e7787322889ed5fdc58bd75b/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mbell/bzzz_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mbell', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/22502_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/mbell/.vscode-server/bin/41dd792b5e652393e7787322889ed5fdc58bd75b/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/matty/AppData/Local/Programs/Python/Python314/Scripts/:/mnt/c/Users/matty/AppData/Local/Programs/Python/Python314/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PostgreSQL/16/bin:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/matty/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/matty/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/matty/AppData/Local/Python/bin:/mnt/c/Users/matty/AppData/Roaming/npm:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-be83f88392.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/mbell/bzzz_ws/install/bzzz_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/mbell/bzzz_ws/build/bzzz_core', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mbell/bzzz_ws/install/bzzz_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/mbell/bzzz_ws/install/bzzz_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[9.405755] (bzzz_core) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.406501] (bzzz_core) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_core/lib/bzzz_core/esp32_bridge\n'}
+[9.409656] (bzzz_core) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mbell/bzzz_ws/install/bzzz_core/lib/bzzz_core/esp32_bridge" to ""\n'}
+[9.410037] (bzzz_core) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_core/share/ament_index/resource_index/package_run_dependencies/bzzz_core\n'}
+[9.410554] (bzzz_core) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_core/share/ament_index/resource_index/parent_prefix_path/bzzz_core\n'}
+[9.411154] (bzzz_core) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/environment/ament_prefix_path.sh\n'}
+[9.411296] (bzzz_core) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/environment/ament_prefix_path.dsv\n'}
+[9.411497] (bzzz_core) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/environment/path.sh\n'}
+[9.411664] (bzzz_core) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/environment/path.dsv\n'}
+[9.411821] (bzzz_core) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/local_setup.bash\n'}
+[9.412164] (bzzz_core) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/local_setup.sh\n'}
+[9.412607] (bzzz_core) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/local_setup.zsh\n'}
+[9.412867] (bzzz_core) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/local_setup.dsv\n'}
+[9.413148] (bzzz_core) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/package.dsv\n'}
+[9.413482] (bzzz_core) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_core/share/ament_index/resource_index/packages/bzzz_core\n'}
+[9.413685] (bzzz_core) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/cmake/bzzz_coreConfig.cmake\n'}
+[9.413977] (bzzz_core) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/cmake/bzzz_coreConfig-version.cmake\n'}
+[9.414341] (bzzz_core) StdoutLine: {'line': b'-- Installing: /home/mbell/bzzz_ws/install/bzzz_core/share/bzzz_core/package.xml\n'}
+[9.415715] (bzzz_core) CommandEnded: {'returncode': 0}
+[9.423817] (bzzz_core) JobEnded: {'identifier': 'bzzz_core', 'rc': 0}
+[9.424743] (-) EventReactorShutdown: {}

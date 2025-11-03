@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "bzzz_msgs__py",
+		"source" : "/home/mbell/bzzz_ws/build/bzzz_msgs/bzzz_msgs__py"
+	}
+}
