@@ -31,14 +31,11 @@ add_executable(anemometer_node src/ROS/sensor nodes/anemometer_node.cpp)
 ament_target_dependencies(anemometer_node rclcpp std_msgs)
 target_link_libraries(anemometer_node pthread)
 
-add_executable(flight_controller_node src/ROS/flight control nodes/flight_controller_node.cpp)
-ament_target_dependencies(flight_controller_node 
-  rclcpp 
-  sensor_msgs 
-  std_msgs 
-  geometry_msgs 
-  bzzz_msgs
-)
+add_executable(altitude_controller_node src/altitude_controller_node.cpp)
+ament_target_dependencies(altitude_controller_node rclcpp sensor_msgs std_msgs bzzz_msgs)
+
+add_executable(attitude_controller_node src/attitude_controller_node.cpp)
+ament_target_dependencies(attitude_controller_node rclcpp sensor_msgs std_msgs bzzz_msgs)
 
 add_executable(data_logger_node src/ROS/utility nodes/logger_node.cpp)
 ament_target_dependencies(data_logger_node 
