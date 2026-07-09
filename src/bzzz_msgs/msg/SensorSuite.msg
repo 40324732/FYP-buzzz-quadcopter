@@ -9,5 +9,5 @@ float32 gyro_y
 float32 gyro_z
 
 # Altitude Sensors
-float32 tof_distance      # Distance from ToF in meters
-float32 baro_pressure     # Pressure from Barometer in Pascals
+float32 tof_distance
+float32 baro_pressure

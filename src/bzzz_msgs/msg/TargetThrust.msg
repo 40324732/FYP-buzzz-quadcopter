@@ -1,0 +1,3 @@
+float32 force_z
+float32 battery_a
+float32 battery_b
